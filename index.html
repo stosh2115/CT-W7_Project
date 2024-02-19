@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" type="text/css" href="./css/main.css">
+<script src="./js/main.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<title>Weather App</title>
+</head>
+<body>
+        <h1 class="text-center">Weather App</h1>
+
+        <div class="container d-flex justify-content-center mt4">
+
+            <form action="" name="testData" id="test-data-form">
+                <label for="weather">Name of City:</label>
+                <input type="text" name="city" id="city">
+                <button class="btn btn-primary mx-3" type="submit" id="submit-button">Get Weather!</button>
+
+            </form>
+
+        </div>
+     
+
+
+
+
+            
+    <div class="container mt-5 mb-5">
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>City</th>
+                    <th>Forcast</th>
+                    <th>Tempature</th>
+                    <th>Low Tempature</th>
+                    <th>High Tempature</th>
+                    <th>Humidty</th>
+                </tr>
+            </thead>
+            <tbody class="weather-data">
+                
+            </tbody>
+        </table>
+    </div>
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+</body>
+</html>
